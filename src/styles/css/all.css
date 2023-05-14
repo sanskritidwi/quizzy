@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+* a {
+  text-decoration: none;
+  color: unset;
+}
+
+.primary {
+  cursor: pointer;
+  border: none;
+  background-color: rgb(255, 163, 4);
+  padding: 12px 8px;
+  border-radius: 4px;
+  font-weight: 700;
+}
+
+.HomeWrapper {
+  background-color: rgb(86, 54, 202);
+  background-image: linear-gradient(rgb(86, 54, 202), purple);
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.HomeWrapper img {
+  width: 100px;
+}
+.HomeWrapper table {
+  width: 60%;
+  padding: 16px;
+}
+.HomeWrapper table tr {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px;
+}
+
+.QuizRulesWrapper {
+  background-color: white;
+  color: black;
+  border-radius: 12px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 24px;
+}
+.QuizRulesWrapper h2 {
+  border-bottom: 2px solid green;
+}
+.QuizRulesWrapper ul {
+  margin: 12px;
+}
+.QuizRulesWrapper ul li {
+  padding: 4px;
+}
+
+.QuizWrapper {
+  background-image: linear-gradient(rgb(86, 54, 202), purple);
+  height: 100vh;
+  color: white;
+  padding: 24px;
+}
+.QuizWrapper .row {
+  display: flex;
+  margin: 12px 0px;
+  font-size: 16px;
+  justify-content: space-between;
+  text-align: center;
+}
+.QuizWrapper .row .time {
+  border: 2px solid white;
+  width: 100px;
+  border-radius: 16px;
+  padding: 4px 8px;
+}
+.QuizWrapper .row .count {
+  color: white;
+  background-color: green;
+  width: 40px;
+  border-radius: 16px;
+  padding: 4px 8px;
+}
+.QuizWrapper .questionWindow {
+  background-color: white;
+  color: black;
+  padding: 12px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.QuizWrapper .questionWindow .QuestionWrapper {
+  margin-bottom: 24px;
+}
+.QuizWrapper .questionWindow .QuestionWrapper .question {
+  margin-bottom: 24px;
+}
+.QuizWrapper .questionWindow .QuestionWrapper .choices {
+  display: flex;
+  flex-direction: column;
+}
+.QuizWrapper .questionWindow .QuestionWrapper .choices label {
+  margin: 8px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.QuizWrapper .questionWindow .QuestionWrapper .choices label .row .option {
+  padding: 4px 6px;
+  border: 1px solid rgb(152, 152, 152);
+  border-radius: 4px;
+  margin-right: 8px;
+}
+.QuizWrapper .questionWindow .QuestionWrapper .choices label .row .option:hover {
+  background-color: green;
+  color: white;
+}
+.QuizWrapper .questionWindow .QuestionWrapper .choices label .row p {
+  padding: 4px;
+}
+.QuizWrapper .questionWindow .QuestionWrapper .choices label input {
+  margin-right: 12px;
+}
+
+.ResultWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.ResultWrapper .score {
+  font-size: 20px;
+  margin: 16px;
+}
+
+/*# sourceMappingURL=all.css.map */

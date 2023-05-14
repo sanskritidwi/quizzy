@@ -1,0 +1,84 @@
+.QuizWrapper {
+  background-image: linear-gradient($primary, purple);
+  height: 100vh;
+  color: $white;
+  padding: 24px;
+  .row {
+    display: flex;
+    margin: 12px 0px;
+    font-size: 16px;
+   justify-content: space-between;
+    text-align: center;
+
+    .time {
+      border: 2px solid white;
+      width: 100px;
+      border-radius: 16px;
+      padding: 4px 8px;
+    }
+    .count {
+      color: $white;
+      background-color: $complimentary;
+      width: 40px;
+      border-radius: 16px;
+      padding: 4px 8px;
+    }
+  }
+  .questionWindow {
+    background-color: white;
+    color: black;
+    padding: 12px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    .QuestionWrapper {
+      margin-bottom: 24px;
+
+      .question {
+        margin-bottom: 24px;
+      }
+      .choices {
+        display: flex;
+        flex-direction: column;
+        label {
+          margin: 8px 0px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .row{
+            .option{
+                padding: 4px 6px;
+                border: 1px solid rgb(152, 152, 152);
+                border-radius: 4px;
+                margin-right: 8px;
+                &:hover{
+                    background-color: $complimentary;
+                    color: white;
+                }
+              }
+              p{
+                padding: 4px;
+              }
+          }
+        
+          input {
+            margin-right: 12px;
+          }
+        }
+      }
+    }
+  }
+ 
+}
+
+.ResultWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    .score{
+        font-size: 20px;
+        margin: 16px;
+    }
+  }

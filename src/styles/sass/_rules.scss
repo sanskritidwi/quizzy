@@ -1,0 +1,19 @@
+.QuizRulesWrapper{
+    background-color: $white;
+    color: black;
+    border-radius: 12px;
+padding: 32px;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 24px;
+h2{
+    border-bottom: 2px solid $complimentary;
+}
+ul{
+    margin: 12px;
+    li{
+        padding: 4px;
+    }
+}
+}

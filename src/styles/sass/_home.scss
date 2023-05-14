@@ -1,0 +1,22 @@
+.HomeWrapper{
+    background-color: $primary;
+    background-image: linear-gradient($primary, purple);
+    color: $white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    img{
+        width: 100px;
+    }
+    table {
+        width: 60%;
+        padding: 16px;
+        tr{
+            display: flex;
+            justify-content: space-between;
+            margin: 16px;
+        }
+       }
+}
